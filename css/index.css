@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 1226px;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .list-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6130px;
+    height: 460px;
+}
+
+.banner ul li {
+    float: left;
+    cursor: pointer;
+}
+
+.banner .banner-control {
+    display: none;
+    width: 1226px;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner .banner-control .perv, .banner .banner-control .next {
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+    color: #cccccc;
+    line-height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.banner .banner-control .perv {
+    left: 0;
+}
+
+.banner .banner-control .next {
+    right: 0;
+}
+
+.banner .banner-control .perv:hover {
+    left: 0;
+    background-color: #cccccc;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.banner .banner-control .next:hover {
+    right: 0;
+    color: #fff;
+    opacity: 0.8;
+    background-color: #cccccc;
+}
+
+.banner .list-control {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+.banner .list-control li {
+    float: left;
+    list-style: none;
+    width: 10px;
+    height:10px;
+    background-color: #fff;
+    border-radius: 100%;
+    border:1px solid #fff;
+    margin-right:10px;
+    line-height: 10px;
+}
+
+.banner .list-control li.active {
+    background-color: #776e6e;
+}
+
